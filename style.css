@@ -54,6 +54,7 @@ svg {
     opacity: 0;
     padding: 1rem;
     width: 80%;
+    pointer-events: none;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
     transform: translateY(100px);
@@ -66,7 +67,7 @@ svg {
     pointer-events: all;
 }
 
-.sliders buttons {
+.sliders button {
     position: absolute;
     top: 0;
     right: 0;
