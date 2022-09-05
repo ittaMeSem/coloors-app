@@ -8,6 +8,25 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 1rem;
+}
+
 body {
     font-family: "Mulish", sans-serif;
     color: #333333;
@@ -236,7 +255,7 @@ input[type="range"] {
     flex: 1;
 }
 
-.small-preview h4 {
+.small-preview div {
     height: 5rem;
     flex: 1;
 }
